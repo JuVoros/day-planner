@@ -1,1 +1,1 @@
-# day-palnner
+# day-planner
