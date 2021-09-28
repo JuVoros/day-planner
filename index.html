@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Workday Scheduler</title>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid p-5">
+        <div>
+            <div class="container" style="text-align: center;">
+                <h1 class="display-4">Workday Scheduler</h1>
+                <p class="lead">a simple calendar app for scheduling your workday</p>
+                <p class="lead" id="currentDate"><span style="font-style: bold;">Today's date is ...</span></p>
+            </div>
+        </div>
+    </div>
+
+    <!--separator bar -->
+    <div id="bar"></div>
+<!-- Table Data -->
+    <div id="calendar">
+        <form>
+        <table class="table" id="taskTable">
+            <tbody>
+            <tr>
+                <td class="cellTime">9AM</th>
+                <td class="cellTask" id="task9"><input id="input9"></input></td>
+                <td class="cellSave" id="save9">✅</td>
+            </tr>
+            <tr>
+                <td class="cellTime">10AM</th>
+                <td class="cellTask" id="task10"><input id="input10"></input></td>
+                <td class="cellSave" id="save10">✅</td>
+            </tr>
+            <tr>
+                <td class="cellTime">11AM</th>
+                <td class="cellTask" id="task11"><input id="input11"></input></td>
+                <td class="cellSave" id="save11">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">12PM</th>
+                <td class="cellTask" id="task12"><input id="input12"></input></td>
+                <td class="cellSave" id="save12">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">1PM</th>
+                <td class="cellTask" id="task13"><input id="input13"></input></td>
+                <td class="cellSave" id="save13">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">2PM</th>
+                <td class="cellTask" id="task14"><input id="input14"></input></td>
+                <td class="cellSave" id="save14">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">3PM</th>
+                <td class="cellTask" id="task15"><input id="input15"></input></td>
+                <td class="cellSave" id="save15">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">4PM</th>
+                <td class="cellTask" id="task16"><input id="input16"></input></td>
+                <td class="cellSave" id="save16">✅</td>
+            </tr>            
+            <tr>
+                <td class="cellTime">5PM</th>
+                <td class="cellTask" id="task17"><input id="input17"></input></td>
+                <td class="cellSave" id="save17">✅</td>
+            </tr>
+            </tbody>
+        </table>
+        </form>
+    </div>
+<!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>   
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+#bar {
+  height: 7px;
+  background-color: rgb(98, 16, 211);
+  margin-bottom: 25px;
+}
+
+#calendar {
+  margin: 0 10%;
+}
+
+td.cellTime {
+  width: 10%;
+  height: 60px;
+  font-weight: bold;
+  text-align: right;
+  border-right: 5px solid rgb(0, 0, 0);
+  border-top: 2px dotted rgb(0, 0, 0);
+}
+
+td.cellTask {
+  height: 75px;
+  background-color: rgb(16, 255, 16);
+}
+
+td.cellSave {
+  width: 10%;
+  background-color: rgb(17, 20, 108);
+  border-left: 5px solid rgb(0, 0, 0);
+  text-align: center;
+  vertical-align: middle;
+}
+
+td.cellSave:hover, td.cellTask:hover {
+  opacity: 85%;
+}
+
+
+input {
+  font-size: 14px;
+  height: 60px;
+  width: 100%;
+  padding-left: 10px;
+  word-wrap: normal;
+  background-color: transparent;
+  border: none;
+}
