@@ -24,7 +24,7 @@ function checkDateTime() {
 
 
 
-            // Change to grey if before/after business hours 
+            // Change to grey if before/after work time
             if (currentTime > timeBlock || currentTime < 9 || currentTime > 17) $(this).css("background-color", "lightgrey");
 
             // Change to red if equal to current time. 
